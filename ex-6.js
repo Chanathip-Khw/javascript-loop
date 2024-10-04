@@ -1,9 +1,9 @@
 // Exercise #6: Reverse the String
 let companyName = "TechUp Thailand";
-let reversedCompanyName = "";
+let reverseCompanyName = "";
 
 for (let letter of companyName) {
-    reversedCompanyName = letter + reversedCompanyName
+    reverseCompanyName = letter + reverseCompanyName
 }
 
-console.log(reversedCompanyName);
+console.log(reverseCompanyName);
